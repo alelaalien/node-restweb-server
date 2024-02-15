@@ -11,6 +11,6 @@ async function main(){
         port: envs.PORT,
         public_path : envs.PUBLIC_PATH
     });
-
+console.log('njkj');
     server.start();
 }
